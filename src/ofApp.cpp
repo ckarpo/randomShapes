@@ -35,7 +35,7 @@ void ofApp::draw(){
     }
     if (word4==1){
         ofSetCircleResolution(5);
-        ofSetColor(155, 20, 120,40);
+        ofSetColor(0,40);//155, 20, 120
         ofDrawCircle(ofRandom(ofGetWidth()),ofRandom(ofGetHeight()),ofRandom(40,120));
     }
     
